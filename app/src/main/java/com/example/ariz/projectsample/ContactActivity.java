@@ -27,7 +27,6 @@ public class ContactActivity extends Activity {
                     startActivity(in);
                 }
                 catch (Exception e ){
-                    System.out.println(e.toString());
                     Intent in = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.facebook.com/mohd.ariz.100"));
                     startActivity(in);
                 }
