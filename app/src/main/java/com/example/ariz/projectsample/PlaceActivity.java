@@ -1,18 +1,18 @@
-package com.example.zaid.projectsample;
+package com.example.ariz.projectsample;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.net.Uri;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import static com.example.zaid.projectsample.CityActivity.counter;
-import static com.example.zaid.projectsample.MainActivity.count;
+import static com.example.ariz.projectsample.CityActivity.counter;
+import static com.example.ariz.projectsample.MainActivity.count;
 
-public class PlaceActivity extends AppCompatActivity {
+public class PlaceActivity extends Activity {
     private TextView tv1;
     private Button but1, but2;
     public static int counter2;

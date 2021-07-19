@@ -1,17 +1,14 @@
-package com.example.zaid.projectsample;
+package com.example.ariz.projectsample;
 
-import android.support.design.widget.Snackbar;
-import android.support.v7.app.AppCompatActivity;
+import android.app.Activity;
 import android.os.Bundle;
-import android.view.View;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
-import static com.example.zaid.projectsample.CityActivity.counter;
-import static com.example.zaid.projectsample.MainActivity.count;
-import static com.example.zaid.projectsample.PlaceActivity.counter2;
+import static com.example.ariz.projectsample.MainActivity.count;
+import static com.example.ariz.projectsample.PlaceActivity.counter2;
 
-public class Main2Activity extends AppCompatActivity {
+public class Main2Activity extends Activity {
 
     WebView web;
     @Override

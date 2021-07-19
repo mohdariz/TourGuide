@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.zaid.projectsample">
+    package="com.example.ariz.projectsample">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -12,15 +12,15 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".MainActivity"
+            android:name="com.example.ariz.projectsample.MainActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".Main2Activity" />
+        <activity android:name="com.example.ariz.projectsample.Main2Activity" />
         <activity
-            android:name=".WikiActivity"
+            android:name="com.example.ariz.projectsample.WikiActivity"
             android:label="@string/wiki" />
         <activity
-            android:name=".SplashScreen"
+            android:name="com.example.ariz.projectsample.SplashScreen"
             android:label="Tourist Guide"
             android:theme="@style/AppTheme.NoActionBar1">
             <intent-filter>
@@ -29,9 +29,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".CityActivity" />
-        <activity android:name=".PlaceActivity" />
-        <activity android:name=".ContactActivity"></activity>
+        <activity android:name="com.example.ariz.projectsample.CityActivity" />
+        <activity android:name="com.example.ariz.projectsample.PlaceActivity" />
+        <activity android:name="com.example.ariz.projectsample.ContactActivity"></activity>
     </application>
 
 </manifest>

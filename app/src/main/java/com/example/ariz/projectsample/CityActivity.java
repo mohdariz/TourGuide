@@ -1,16 +1,15 @@
-package com.example.zaid.projectsample;
+package com.example.ariz.projectsample;
 
+import android.app.Activity;
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import static com.example.ariz.projectsample.MainActivity.count;
 
-import static com.example.zaid.projectsample.MainActivity.count;
-
-public class CityActivity extends AppCompatActivity {
+public class CityActivity extends Activity {
     public static int counter;
     private ImageView iv1, iv2, iv3, iv4, iv5;
     private TextView tv1, tv2, tv3, tv4, tv5;

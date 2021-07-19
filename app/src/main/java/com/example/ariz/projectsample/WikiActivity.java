@@ -1,14 +1,13 @@
-package com.example.zaid.projectsample;
+package com.example.ariz.projectsample;
 
-import android.support.annotation.UiThread;
-import android.support.v7.app.AppCompatActivity;
+import android.app.Activity;
 import android.os.Bundle;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
-import static com.example.zaid.projectsample.MainActivity.count;
+import static com.example.ariz.projectsample.MainActivity.count;
 
-public class WikiActivity extends AppCompatActivity {
+public class WikiActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

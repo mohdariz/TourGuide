@@ -1,4 +1,4 @@
-package com.example.zaid.projectsample;
+package com.example.ariz.projectsample;
 
 import org.junit.Test;
 
